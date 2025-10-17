@@ -9,7 +9,7 @@ num_guesses = 0
 guess = MAX+1
 correct = False
 
-print(number)
+#print(number)
 
 print(f"Pick a number between {MIN} and {MAX}")
 
