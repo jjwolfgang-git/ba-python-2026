@@ -38,5 +38,23 @@ while True:
     if user_move == "r" and comp_move == "SCISSORS":    
         print("You win!")
         wins = wins + 1
- 
-    
+        
+    if user_move == "p" and comp_move == "ROCK":
+        print("You win!")
+        wins = wins + 1
+    if user_move == "p" and comp_move == "PAPER":
+        print("It is a tie!")
+        ties = ties + 1
+    if user_move == "p" and comp_move == "SCISSORS":    
+        print("You lose!")
+        losses = losses + 1
+        
+    if user_move == "s" and comp_move == "ROCK":
+        print("You lose!")
+        losses = losses + 1
+    if user_move == "s" and comp_move == "PAPER":
+        print("You win!")
+        wins = wins + 1
+    if user_move == "s" and comp_move == "SCISSORS":    
+        print("It is a tie!")
+        ties = ties + 1
