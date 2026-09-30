@@ -1,0 +1,3 @@
+Nm = input("What is your name"?)
+print("Hi " + nm 'My name is John")
+print(Goodbye!)
